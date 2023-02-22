@@ -180,11 +180,7 @@ p{
 
 
 .current {
- 
  color: var(--color)
-}
-.boxbutt{
-
 }
 .backdrop{ 
   display: flex;
@@ -224,17 +220,37 @@ top: 229px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 40px;
 }
+.modal-input{
+  padding-left:40px ;
+  width: 448px;
+height: 40px;
+left: 576px;
+top: 314px;
+border-radius: 4px;
+}
+.modal-input:hover {
+  border: 1px solid #2196F3;
+  border-radius: 4px;}
 .input-svg{
   position: absolute;
-  top: 0px;
-  
-}
+  top: 14px;
+  left: 15px}
+  .modal-input:focus + .input-svg
+    .modal-input:hover + .input-svg{
+    fill: #188CE8;
+  }
 .input-svg-open{
-  position:relative ;
-}
+  position:relative ;}
+  .checkboxx{
+   display: flex;
+   padding: 16px;
+   
+    
+  }
+  
 
 .box {
-  background-image: url(/images/boximage.jpg);
+  background-image: url(../images/boximage.jpg);
   background-size:cover;
   display: flex;
   flex-direction: column;
@@ -245,11 +261,20 @@ top: 229px;
   background: linear-gradient(rgba(47, 48, 58, 0.4));
   
 height: 600px;
-gap: 40px;
-
-
-
-}
+gap: 40px;}
+.button-env{
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+.buttext{
+  letter-spacing: 0.06em;
+color: #FFFFFF;}
+.buttonnn{
+width: 200px;
+height: 50px;
+background: #188CE8;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;}
 .titlee {
 
   text-align: center;
@@ -261,9 +286,7 @@ width: 696px;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 1);
 letter-spacing: 0.06em;
-text-transform: uppercase;
-
-}
+text-transform: uppercase;}
 
 
 .button {
@@ -280,17 +303,14 @@ text-transform: uppercase;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
-  color: rgba(255, 255, 255, 1);
-}
+  color: rgba(255, 255, 255, 1);}
 .icoms{
   display: flex;
   justify-content: center;
   align-items: center;
   
   gap: 30px;
-  padding: 90px;
-
-} 
+  padding: 90px;} 
 .icons{
   display: flex;
   justify-content: center;
@@ -298,25 +318,19 @@ text-transform: uppercase;
   width: 170px;
 height: 81px;
 border: 1px solid #AFB1B8;
-border-radius: 4px;
-
-}
+border-radius: 4px;}
 .box-icon{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 17px;
-}
+  padding: 17px;}
 .icon {
  display: flex;
  justify-content: center;
  align-items: center;
  gap: 30px;
- 
-
-
-  width: 270px;
-  height: 120px;
+ width: 270px;
+height: 120px;
 
   
   background: #F5F4FA;
@@ -356,18 +370,18 @@ border-radius: 4px;
     width: 370px;
     height: 294px;
     
-    background-image: url(/images/img.jpg);
+    background-image: url(../images/img.jpg);
   }
   .two{
     position: relative;
     width: 370px;
     height: 294px;
     
-    background-image:url(/images/img1.jpg)
+    background-image:url(../images/img1.jpg)
   }
   .tree{
     position: relative;
-    background-image: url(/images/img2.jpg);
+    background-image: url(../images/img2.jpg);
     width: 370px;
     height: 294px;
   }
