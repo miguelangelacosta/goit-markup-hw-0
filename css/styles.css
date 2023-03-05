@@ -39,6 +39,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+ 
  }
  address {
 	font-style: normal;
@@ -210,6 +211,11 @@ width: 100vw;
 
   
 }
+.bton:hover{
+  border: 1px solid #2196F3;
+  border-radius: 4px;}
+
+
 .modal{
 position: absolute;
 top: 229px;
@@ -235,6 +241,7 @@ border-radius: 4px;
   position: absolute;
   top: 14px;
   left: 15px}
+
   .modal-input:focus + .input-svg
     .modal-input:hover + .input-svg{
     fill: #188CE8;
@@ -528,8 +535,8 @@ padding: 95px;
 .footer {
   height: 252px;
   background: rgba(47, 48, 58, 1);
-  gap: 9px;
-
+  
+  padding: 60px 0px ;
 
 }
 
@@ -540,29 +547,36 @@ padding: 95px;
   width: 206px;
 
 }
-.containerr{
-  display: flex; align-items:center ;
+.containeer{
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
  
 }
+.containerr{
+  display: flex;
+ align-items: center;
+ width: 1200px;
+ margin: 0 auto;
+}
 .linksss{
-  display:flex;
-  justify-content: center;
-  flex-direction: column;
- 
-  gap: 6px;
+  margin-right: 72px;
+  
 
 }
 .webs{
-  display: flex;
-  justify-content: center;
-  gap: 9px;
- color:var(--color);
-font-family: "Raleway";
-text-decoration: none;
-font-weight: 700;
-font-size: 26px;
-line-height: var(--line-height);
-width: 145px; }
+  height: 31px;
+  color:var(--color);
+  font-family: "Raleway";
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: var(--line-height);
+width: 145px;
+
+}
+ 
 .foortrr{
   display:flex;
   justify-content: center;
@@ -573,9 +587,12 @@ width: 145px; }
 
 }
 .icon-fotr{
+  gap: 10px;
 display: flex;
-gap: 10px;
-align-items: center;
+padding-left: 0;
+margin: 0;
+margin-right: 93px;
+
 
 }
 .border-ra{
@@ -596,6 +613,11 @@ align-items: center;
   border-radius: 50px;
   background: #2196F3;
 }
+.footr{
+ padding-left: 0;
+  margin: 0;
+
+}
 
 .fort-titl{
   font-weight: 700;
@@ -605,8 +627,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 
 color: #FFFFFF;
-display: flex;
-justify-content: center;
+
 }
 
 
@@ -623,12 +644,21 @@ justify-content: center;
 padding:20px 10px;
 border-radius: 0%;
 background-color: rgba(255, 255, 255, 0.1);
+padding-left: 0;
+margin: 0;
 }
   
 .footer-iconbus{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.modal-in{
+  background-color: #75757550;
+  padding: 12px;
+  width: 300px;
+  margin-right: 10px;
+
 }
 .im{
   position: relative;
@@ -642,10 +672,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 
 color: #FFFFFF;
-width: 275px;
-height: 16px;
-left: 815px;
-top: 2751px;
+
 
 }
 
@@ -891,4 +918,7 @@ text-decoration-color: var(--color);
   color: #ffffff;}
 .info-address {
   color: rgba(255, 255, 255, 0.6);
+}
+.input-sv{
+  margin-left: 10px;
 }
