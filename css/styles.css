@@ -913,6 +913,149 @@ text-decoration-color: var(--color);
   padding: 50px;
 
  }
+ .footer {
+  height: 252px;
+  background: rgba(47, 48, 58, 1);
+  
+  padding: 60px 0px ;
+
+}
+
+.iconnnnn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 206px;
+
+}
+.containeer{
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+ 
+}
+.containerr{
+  display: flex;
+ align-items: center;
+ width: 1200px;
+ margin: 0 auto;
+}
+.linksss{
+  margin-right: 72px;
+  
+
+}
+.webs{
+  height: 31px;
+  color:var(--color);
+  font-family: "Raleway";
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: var(--line-height);
+width: 145px;
+
+}
+ 
+.foortrr{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+
+}
+.icon-fotr{
+  gap: 10px;
+display: flex;
+padding-left: 0;
+margin: 0;
+margin-right: 93px;
+
+
+}
+.border-ra{
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+align-items: center;
+  border-radius: 50px;
+}
+.border-radi{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+align-items: center;
+  border-radius: 50px;
+  background: #2196F3;
+}
+.footr{
+ padding-left: 0;
+  margin: 0;
+
+}
+
+.fort-titl{
+  font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+
+.address {
+  color:  rgba(255, 255, 255, 1);
+}
+.info {
+  color: rgba(255, 255, 255, 0.6);
+}
+.icon-fo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+padding:20px 10px;
+border-radius: 0%;
+background-color: rgba(255, 255, 255, 0.1);
+padding-left: 0;
+margin: 0;
+}
+  
+.footer-iconbus{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-in{
+  background-color: #75757550;
+  padding: 12px;
+  width: 300px;
+  margin-right: 10px;
+
+}
+.im{
+  position: relative;
+  margin-left: 120px;
+}
+.fort-tit{
+  font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
  
  .footer-address {
   color: #ffffff;}
